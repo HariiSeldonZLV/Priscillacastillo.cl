@@ -1,24 +1,25 @@
 {
-  "name": "diputada",
+  "name": "priscilla-diputada",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --emptyOutDir",
+    "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "mdi": "^2.2.43",
-    "sass": "^1.98.0",
-    "vue": "^3.5.25",
-    "vuetify": "^4.0.1"
+    "vue": "^3.5.0",
+    "vuetify": "^3.5.0",
+    "@mdi/font": "^7.4.47",
+    "sass": "^1.71.0",
+    "vite-plugin-vuetify": "^2.0.0"
   },
   "devDependencies": {
-    "@mdi/font": "^7.4.47",
-    "@vitejs/plugin-vue": "^6.0.2",
-    "gh-pages": "^6.3.0",
-    "vite": "^7.3.1"
+    "@vitejs/plugin-vue": "^5.2.0",
+    "vite": "^5.4.0",
+    "gh-pages": "^6.1.0"
   }
 }
